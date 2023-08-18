@@ -11,8 +11,16 @@ const Form = () => {
           <Image src="/form.png" width={500} height={130} alt='uct_logo' />
         </div>
         <div>
-          <p>!Completa el formulario y comienza tu transformación hoy!</p>
-          
+          <p className="text-center">¡Completa el formulario y comienza tu transformación hoy!</p>
+          <div className="grid grid-cols-2 my-10 gap-x-32 gap-y-10 auto-rows-auto">
+            <input type="text" className="h-10 rounded-lg"/>
+            <input type="text" className="h-10 rounded-lg"/>
+            <input type="text" className="h-10 rounded-lg"/>
+            <input type="text" className="h-10 rounded-lg"/>
+            <input type="text" className="h-10 rounded-lg"/>
+            <input type="text" className="h-10 rounded-lg"/>
+          </div>
+          <input type="text" className="h-10 rounded-lg w-full" />
         </div>
       </div>
     </div>
