@@ -5,12 +5,12 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='w-full min-h-screen'>
+    <main className='w-full min-h-screen h-screen'>
       <div className='h-screen'>
         <Navbar />
         <Hero />
       </div>
-      <div className='h-screen'>
+      <div>
         <Form/>
       </div>
       

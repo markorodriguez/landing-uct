@@ -16,7 +16,7 @@ module.exports = {
         "c-purple": "#140E56",
         "c-yellow": "#DFB10B",
         "c-green": "#20C997",
-        "c-blue-sky": "#7794BD"
+        "c-blue-sky": '#7794bd59'
       }
     },
   },
