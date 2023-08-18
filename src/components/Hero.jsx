@@ -12,7 +12,7 @@ const Hero = () => {
             <button className='bg-c-green rounded-md px-4 py-2 text-white text-sm shadow-md'>Chatea con un experto</button>
         </div>
         <div className='relative p-8'>
-            <span className='absolute md:right-10 right-5 md:top-5 top_10 text-xs md:text-sm'>*1 año de estudio </span>
+            <span className='absolute md:right-10 right-5 md:top-5 top_10 text-xs md:text-sm text-c-purple'>*1 año de estudio </span>
             <Image src="/hero.png" width={500} height={130} alt='uct_logo' />
         </div>
     </div>
