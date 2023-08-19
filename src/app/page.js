@@ -2,7 +2,7 @@ import Footer from '@/components/Footer'
 import Form from '@/components/Form'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -12,12 +12,9 @@ export default function Home() {
         <Hero />
       </div>
       <div>
-        <Form/>
+        <Form />
         <Footer />
       </div>
-        
-      
-      
     </main>
   )
 }
