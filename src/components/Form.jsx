@@ -27,6 +27,8 @@ const AnimatedInput = React.forwardRef(({ controls, type, placeholder, registerP
   );
 });
 
+AnimatedInput.displayName = "AnimatedInput"
+
 const AnimatedSelect = React.forwardRef(({ controls, children, delay }, ref) => {
   return (
     <motion.select
@@ -45,6 +47,8 @@ const AnimatedSelect = React.forwardRef(({ controls, children, delay }, ref) => 
     </motion.select>
   );
 });
+
+AnimatedSelect.displayName = "AnimatedSelect"
 
 const Form = () => {
   const [masters, setMasters] = useState(null)
