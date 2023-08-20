@@ -98,7 +98,7 @@ const Form = () => {
       <div className="flex h-[75vh] mt-10 items-center justify-center w-full mx-auto">
         <motion.div variants={{
           visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0 } },
-          hidden: { opacity: 0, scale: 0.5 }
+          hidden: { opacity: 0, scale: 0.8 }
         }} ref={ref} animate={controls} initial="hidden" className="md:w-3/12 md:block hidden">
           <Image src="/form.png" width={500} height={130} alt='uct_logo' />
         </motion.div>
