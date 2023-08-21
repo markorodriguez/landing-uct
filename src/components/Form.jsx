@@ -87,6 +87,7 @@ const Form = () => {
     toast.promise(axios.post("/api/register", data), {
       loading: 'Registrando...',
       success: ({ data }) => {
+        reset()
         return `${data.message}`
       },
       error: 'Ha ocurrido algo inesperado'
@@ -100,14 +101,14 @@ const Form = () => {
       <Toaster position='top-right' />
       <Connector />
 
-      <div className="flex h-[75vh] mt-10 items-center justify-center w-full mx-auto">
+      <div className="flex h-[90vh] w-11/12 xl:w-9/12 min-[1440px]:w-9/12 min-[1600px]:w-8/12 mt-10 items-center justify-center mx-auto">
         <motion.div variants={{
           visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0 } },
           hidden: { opacity: 0, scale: 0.8 }
-        }} ref={ref} animate={controls} initial="hidden" className="md:w-3/12 md:block hidden">
+        }} ref={ref} animate={controls} initial="hidden" className="md:w-5/12 md:block hidden">
           <Image src="/form.png" width={500} height={130} alt='uct_logo' />
         </motion.div>
-        <div className="md:w-4/12 w-11/12">
+        <div className="w-full lg:w-6/12">
           <form onSubmit={handleSubmit(onSubmit)}>
             <motion.p variants={{
               visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0.2 } },

@@ -20,7 +20,7 @@ module.exports = {
         "c-gray": "#404040c9",
         "c-black": "#272727"
       }
-    },
+    }
   },
   plugins: [],
 }
