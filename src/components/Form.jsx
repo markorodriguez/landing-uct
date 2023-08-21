@@ -161,14 +161,14 @@ const Form = () => {
                 <motion.input ref={ref} initial="hidden" animate={controls} variants={{
                   visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0.8 } },
                   hidden: { opacity: 0, scale: 1 }
-                }} type="tel" pattern="^[0-9]+[0-9]*$" maxLength="9" className="h-10 px-4 rounded-lg w-full" placeholder="Celular" {...register("phone", { required: requiredMessage })} />
+                }} type="tel" pattern="^[0-9]+[0-9]*$" maxLength="9" className="h-10 px-4 bg-white rounded-lg w-full" placeholder="Celular" {...register("phone", { required: requiredMessage })} />
                 {errors?.phone && <p role='alert' className='mx-4 my-1 text-c-purple'>{errors.phone?.message}</p>}
               </div>
 
 
             </div>
             <div className='text-sm text-c-gray'>
-              <motion.select ref={ref} className="h-10 px-4 w-full rounded-lg text-c-gray text-sm" initial="hidden" defaultValue={0} animate={controls} {...register("masterDegree", {
+              <motion.select ref={ref} className="h-10 px-4 w-full rounded-lg text-c-gray bg-white  text-sm" initial="hidden" defaultValue={0} animate={controls} {...register("masterDegree", {
                 required: requiredMessage, min: {
                   value: 1,
                   message: "Seleccione un programa"
