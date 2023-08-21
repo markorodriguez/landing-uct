@@ -18,7 +18,7 @@ const Hero = () => {
 
 
   return (
-    <div className='h-[75%] w-11/12 xl:w-9/12 min-[1440px]:w-9/12 min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row flex-col justify-center md:justify-between'>
+    <div className='h-[80%] w-11/12 xl:w-9/12 min-[1440px]:w-9/12 min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row flex-col justify-center md:justify-between'>
         <motion.div variants={{
           visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0 } },
           hidden: { opacity: 0, scale: 0.8 }
@@ -36,7 +36,7 @@ const Hero = () => {
             <span className='absolute md:right-10 right-5 md:top-5 top_10 text-xs md:text-sm text-c-purple'>*1 año de estudio </span>
             <Image src="/hero.png" width={500} height={130} alt='hero_image' />
         </motion.div>
-    </div>
+        </div>
   )
 }
 
