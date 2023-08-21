@@ -226,7 +226,7 @@ const Form = () => {
                 visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0.9 } },
                 hidden: { opacity: 0, scale: 1 }
               }}>
-              <select  className="h-10 px-4 w-full rounded-lg text-c-gray bg-white  text-sm"  defaultValue={0}  {...register("masterDegree", {
+              <select  className="h-10 px-4 w-full rounded-lg text-c-gray bg-white  text-sm"   {...register("masterDegree", {
                 required: requiredMessage, min: {
                   value: 1,
                   message: "Seleccione un programa"
