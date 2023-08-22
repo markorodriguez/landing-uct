@@ -18,7 +18,7 @@ const Hero = () => {
 
 
   return (
-    <div className='h-[100vh] w-11/12 xl:w-10/12 min-[1000px]:w-11/12  min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row  flex-col justify-center md:justify-between'>
+    <div className='h-full md:h-[100vh] w-11/12 xl:w-10/12 min-[1000px]:w-11/12  min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row  flex-col justify-center md:justify-between'>
         <motion.div variants={{
           visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0 } },
           hidden: { opacity: 0, scale: 0.8 }
@@ -35,7 +35,7 @@ const Hero = () => {
           visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0.3 } },
           hidden: { opacity: 0, scale: 0.5 }
         }} ref={ref} animate={controls} initial="hidden" className='relative p-8'>
-            <Image src="/hero.png" width={500} height={130} alt='hero_image' />
+            <Image className={{height: 'auto'}} src="/hero.png" width={450} height={130} alt='hero_image' />
         </motion.div>
         </div>
   )
