@@ -167,7 +167,7 @@ const Form = () => {
             <motion.p variants={{
               visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0.2 } },
               hidden: { opacity: 0, scale: 1 }
-            }} ref={ref} animate={controls} initial="hidden" className="text-center font-semibold text-c-black">¡Completa el formulario y comienza tu transformación hoy!</motion.p>
+            }} ref={ref} animate={controls} initial="hidden" className="text-center font-semibold text-c-black">¡Completa el formulario y comienza <br /> tu transformación hoy!</motion.p>
             {/** Components were created below, but didn't manage to pass REF and get values  */}
             <div className="grid w-full grid-cols-2 my-10 gap-x-5 gap-y-10 auto-rows-auto text-c-gray text-sm">
               <motion.div  ref={ref} initial="hidden" animate={controls} variants={{
