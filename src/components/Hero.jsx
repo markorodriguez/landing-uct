@@ -18,7 +18,7 @@ const Hero = () => {
 
 
   return (
-    <div className='h-full md:h-[100vh] w-11/12 xl:w-10/12 min-[1000px]:w-11/12  min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row  flex-col justify-center md:justify-between'>
+    <div className='h-[100vh] md:h-[105vh] w-11/12 xl:w-10/12 min-[1000px]:w-11/12  min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row  flex-col justify-center md:justify-between'>
         <motion.div variants={{
           visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0 } },
           hidden: { opacity: 0, scale: 0.8 }

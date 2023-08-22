@@ -7,7 +7,7 @@ import Navbar from '@/components/Navbar'
 export default function Home() {
   return (
     <main className='w-full min-h-screen h-screen'>
-      <div className='h-screen'>
+      <div className='min-h-screen'>
         <Navbar />
         <Hero />
       </div>
