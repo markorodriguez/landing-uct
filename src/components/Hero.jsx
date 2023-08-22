@@ -18,14 +18,14 @@ const Hero = () => {
 
 
   return (
-    <div className='h-[80%] w-11/12 xl:w-9/12 min-[1440px]:w-9/12 min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row flex-col justify-center md:justify-between'>
+    <div className='h-[100vh] w-11/12 xl:w-10/12 min-[1000px]:w-11/12  min-[1600px]:w-8/12 items-center mx-auto flex md:flex-row  flex-col justify-center md:justify-between'>
         <motion.div variants={{
           visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0 } },
           hidden: { opacity: 0, scale: 0.8 }
         }} ref={ref} animate={controls} initial="hidden" className="text-center md:text-left">
-            <h1 className='text-[2.5rem] md:text-6xl text-c-purple uppercase font-extrabold mt-20 md:mb-6 '>¡Estudia </h1>
-            <h1 className='text-[2.5rem] md:text-6xl text-c-purple uppercase font-extrabold mb-10'>tu posgrado!</h1>
-            <h2 className='text-c-yellow text-4xl font-extrabold'>15 Maestrías</h2>
+            <h1 className='text-[2.5rem] md:text-4xl xl:text-6xl text-c-purple uppercase font-extrabold mt-20 md:mb-6 '>¡Estudia </h1>
+            <h1 className='text-[2.5rem] md:text-4xl xl:text-6xl text-c-purple uppercase font-extrabold mb-10'>tu posgrado!</h1>
+            <h2 className='text-c-yellow md:text-3xl xl:text-4xl font-extrabold'>15 Maestrías</h2>
             <p className='text-xs md:text-sm mt-2 text-c-purple'>1 año de estudio </p>
 
             <p className='italic py-4 text-c-purple font-bold'>¡Aprovecha esta oportunidad única!</p>
