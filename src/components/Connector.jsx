@@ -10,11 +10,11 @@ const Connector = () => {
                     </p>
                 </div>
                 <div className="flex items-center justify-center text-left">
-                    <span className="text-6xl font-extrabold mx-5">26</span>
+                    <span className="text-6xl font-extrabold mx-5">23</span>
                     <div>
                         <p className="uppercase">Examen <br />
                             de admisión <br />
-                            <span className="text-3xl font-extrabold">Agosto</span></p>
+                            <span className="text-3xl font-extrabold">Septiembre</span></p>
                     </div>
                 </div>
             </div>
