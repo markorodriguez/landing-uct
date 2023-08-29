@@ -14,7 +14,7 @@ const Connector = () => {
                     <div>
                         <p className="uppercase">Examen <br />
                             de admisión <br />
-                            <span className="text-3xl font-extrabold">Septiembre</span></p>
+                            <span className="text-3xl font-extrabold">Setiembre</span></p>
                     </div>
                 </div>
             </div>
